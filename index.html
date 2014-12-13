@@ -12,8 +12,10 @@
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="../components/webcomponentsjs/webcomponents.js"></script>
 
+
 		<!-- Cascading Style Sheets -->
 		<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" type="text/css" href="slider.css">
 		<link rel="import" href="../components/font-roboto/roboto.html">
 		<link rel="import" href="../components/core-header-panel/core-header-panel.html">
 		<link rel="import" href="../components/core-toolbar/core-toolbar.html">
@@ -27,10 +29,10 @@
 
 	
 	<body>
-		<div class="container">
+		<div class="container slider-box">
 			<header><h4>NYT Hack</h4></header>
 			<section>
-				<input type="range" min="0" max="50" value="0" step="5" onchange="showValue(this.value)" />
+				<input type="range" min="0" max="100" value="0" step="5" onchange="showValue(this.value)" class="slider"/>
 				<!-- <paper-slider min="10" max="200" value="110"></paper-slider> -->
 			</section>
 		</div>
