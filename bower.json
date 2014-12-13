@@ -1,0 +1,23 @@
+{
+  "name": "Red",
+  "version": "0.0.0",
+  "authors": [
+    "Christian Bulacan <cbulacan9@gmail.com>"
+  ],
+  "description": "Red",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2",
+    "bootstrap": "~3.3.1"
+  }
+}
